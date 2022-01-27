@@ -1,0 +1,43 @@
+body {
+    background-image: url("artic.jpg");
+    background-repeat: none;
+    text-align: center;
+}
+
+span {
+    border: 2px solid black;
+    padding:  0em 1em;
+    border-radius: 10px;
+    font-size: 24px;
+    line-height: 2;
+}
+
+span.ex1 { 
+    -webkit-box-decoration-break: clone;
+    -o-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+p.dotted {border-style: dotted;}
+
+.latin {
+    float: left;
+}
+
+hr.dotted {
+    border-top: 3px dotted #bbb;
+  }
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    margin: 20px;
+  }
+
+.centertext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
